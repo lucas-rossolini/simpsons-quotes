@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +39,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.QuoteCard {
+  border: solid 2px #000;
+  width: 60%;
+}
+
+.QuoteCard ul {
+  list-style: none;
+}
+
+.QuoteCard li:first-child {
+  font-style: italic;
+}
+
+.QuoteCard li:last-child {
+  font-weight: 700;
 }
